@@ -1,0 +1,145 @@
+.benner {
+	background: image("fotoawal.jpg")
+	repeat center: center;
+	background-size: cover;
+	padding-top: 100%;
+	padding-bottom: 100%;
+	color:   #009990;
+
+}
+
+.KATEGORI img{
+	width: 190px;
+	border: 10px solid #F72C5B;
+
+}
+
+.SUBMIT LOMBA{
+	background: image("fotoawal.jpg")
+	repeat center center;
+    background-size: cover;
+    padding-bottom: 100%;
+    padding-top: 100%
+    color:#ffffff;
+}
+@media screen and (max-width: 991.98px) {
+  .wrapper {
+  width: 90%;
+}
+
+
+
+
+#contact {
+  background: #dedede;
+  padding: 50px 0px 50px 0px;
+}
+.footer {
+  width: 100%;
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  margin: auto;
+}
+
+.footer-section {
+  width: 20%;
+  margin: 0 auto;
+
+}
+
+h3 {
+  font-family: 'comic sans ms';
+  font-weight: 800;
+  font-size: 20px;
+  color: #050C9C;
+  width: 100%;
+  line-height: 50px;
+}
+
+#copyright {
+  text-align: center;
+  width: 100px;
+  padding: 50px 0px 50px 0px;
+  margin-top: 50px;
+}
+
+@media screen and (max-width: 991.98px) {
+  .wrapper {
+  width: 90%;
+}
+
+* {
+  text-decoration: none;
+  margin: 0px;
+  padding: 0px;
+  }
+
+
+body {
+  margin: 0px;
+  padding: 0px;
+  font-family: 'open sans',sans-serif;
+}
+
+.wrapper {
+  width: 1100px;
+  margin: auto;
+  position: relative;
+}
+
+.logo a {
+  font-size: 40px;
+  font-weight: 800;
+  float: left;
+  font-family: courier;
+  color: #050C9C;
+}
+
+.menu {
+  float: right;
+}
+
+nav {
+  width: 100%;
+  margin: auto;
+  display: flex;
+  line-height: 80px;
+  position: sticky;
+  position: -webkit-sticky;
+  top: 0;
+  background: #ffffff;
+  z-index: 1;
+  border-bottom: 1px solid #050C9C;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+nav ul li {
+  float: left;
+}
+
+nav ul li a {
+  color: black;
+  font-weight: bold;
+  text-align: center;
+  padding: 0px 16px 0px 16px;
+  text-decoration: none;
+}
+
+nav ul li a:hover{
+  text-decoration: underline;
+}
+
+.navbar-toggler-icon{
+	background-color: white;
+	border: 1px solid white;
+	width: 30px
+	height:3px;
+	display: block;
+}
